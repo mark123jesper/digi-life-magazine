@@ -5,11 +5,7 @@
 		}
 
 		html {
-<<<<<<< HEAD
 			background-image: url(https://wallpapercave.com/wp/wp7728152.jpg);
-=======
-			background-image: url(https://wallpapercave.com/wp/wp7728220.jpg);
->>>>>>> cf80e1f634111b86e775374ae868583c4e66fb81
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
@@ -57,11 +53,6 @@
 
 		.navbarmenu ul li:hover {
 			background-color: rgba(25, 40, 50, 1);
-		}
-
-		.navbarmenu ul li:active {
-			transition: 0.5s;
-			transform: scale(0.8);
 		}
 
 		.navbarmenu ul a {
