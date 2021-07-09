@@ -1,7 +1,7 @@
 		/*			ALL BODY ELEMENTS*/
 		* {
 			margin: 0;
-			font-family: 'Helvetica', 'Arial', monospace;
+			font-family: 'Merryweather';
 		}
 
 		html {
@@ -14,7 +14,6 @@
 
 		/*		NAVBAR*/
 		.company {
-			font-family: fantasy;
 			display: block;
 			position: absolute;
 			top: 10px;
