@@ -1,11 +1,11 @@
-		/*			ALL BODY ELEMENTS*/
+/*			ALL BODY ELEMENTS*/
 		* {
 			margin: 0;
 			font-family: 'Helvetica', 'Arial', monospace;
 		}
 
 		html {
-			background-color: darkslategray;
+			background-color: rgba(50,50,50, 1);
 			background-image: url();
 			background-repeat: no-repeat;
 			background-size: cover;
