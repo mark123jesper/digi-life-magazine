@@ -5,42 +5,58 @@
 		}
 
 		html {
-			background-color: rgba(50, 50, 50, 1);
-			background-image: url();
+			background-image: url('../assets/%E2%80%94Pngtree%E2%80%94sports%20basketball%20backplane_780138.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
 			background-attachment: fixed;
 		}
 
-		/*				NAVBAR SOCIAL*/
-		.socialmenu {
+		.company {
+			font-family: fantasy;
+			display: block;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			font-size: 40px;
+			color: white;
+		}
+
+		.navbarmenu {
+			font-weight: bolder;
 			position: fixed;
-			top: 16px;
-			right: 5px;
-			z-index: 250;
+			top: 0px;
+			width: 100%;
+			background-color: rgba(25, 71, 95, 1);
+			color: greenyellow;
+			height: 70px;
+			z-index: 100;
 		}
 
-		.socialmenu ul {
+		.navbarmenu ul {
 			display: flex;
-			justify-content: flex-end;
-			list-style: none;
+			flex-wrap: wrap;
+			justify-content: center;
+			list-style-type: none;
 		}
 
-		.socialmenu ul li {
-			margin: 2px;
-			margin-right: 5px;
+		.navbarmenu ul li {
+			display: block;
+			padding: 23px;
+			font-size: 20px;
 		}
 
-		.socialmenu ul li img {
-			width: 30px;
-			background-color: white;
-			border-radius: 14%;
+		.navbarmenu ul li:focus {
+			background-color: black;
 		}
 
-		.socialmenu ul li:hover {
-			transition: 0.3s;
-			transform: scale(1.5);
+		.navbarmenu ul li:hover {
+			background-color: rgba(25, 40, 50, 1);
+		}
+
+		.navbarmenu ul a {
+			text-decoration: none;
+			color: whitesmoke;
 		}
 
 		/*		CATEGORY DROPDOWN*/
@@ -87,18 +103,19 @@
 
 		.socialmenu ul li {
 			margin: 2px;
-			margin-right: 12px;
+			margin-right: 5px;
 		}
 
 		.socialmenu ul li img {
-			width: 30px
+			width: 30px;
+			background-color: white;
+			border-radius: 14%;
 		}
 
 		.socialmenu ul li:hover {
 			transition: 0.3s;
 			transform: scale(1.5);
 		}
-
 
 		/*		ASIDE FLEX*/
 		.asideflex {
@@ -130,6 +147,8 @@
 			grid-row: 1/3;
 			grid-column: 2/3;
 			margin-top: 70px;
+			background-color: rgba(50, 50, 50, 0.5);
+			background-size: cover;
 		}
 
 		/*		ARTICLE CARDS*/
@@ -141,7 +160,7 @@
 
 
 		aside article {
-			background-color: rgba(2, 2, 2, 0.5);
+			background-color: rgba(0, 0, 0, 0.3);
 			width: 400px;
 			height: 420px;
 			padding: 5px;
@@ -201,7 +220,8 @@
 			text-align: justify
 		}
 
-		main qouteblock {
+		main blockquote {
+			margin: 0 auto;
 			width: 650px;
 		}
 

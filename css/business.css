@@ -5,14 +5,13 @@
 		}
 
 		html {
-			background-image: url(../assets/business.jpg);
+			background-image: url('../assets/%E2%80%94Pngtree%E2%80%94sports%20basketball%20backplane_780138.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
 			background-attachment: fixed;
 		}
 
-		/*		NAVBAR*/
 		.company {
 			font-family: fantasy;
 			display: block;
@@ -118,7 +117,6 @@
 			transform: scale(1.5);
 		}
 
-
 		/*		ASIDE FLEX*/
 		.asideflex {
 			display: flex;
@@ -222,7 +220,8 @@
 			text-align: justify
 		}
 
-		main qouteblock {
+		main blockquote {
+			margin: 0 auto;
 			width: 650px;
 		}
 
