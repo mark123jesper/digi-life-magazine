@@ -9,6 +9,64 @@
 	<link rel="icon" href="../assets/Orange__Purple_Modern_My_Digital_Life_Logo.png">
 	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
 	<title>DigiLife Magazine | About Us</title>
+	<style>
+		#slider {
+			position: absolute;
+			top: 140px;
+			width: 500px;
+			height: 500px;
+			background: blue;
+			overflow: hidden;
+			transform: translateX(-100%);
+			-webkit-transform: translateX(-100%);
+		}
+
+		.slide-in {
+			animation: slide-in 0.5s forwards;
+			-webkit-animation: slide-in 0.5s forwards;
+		}
+
+		.slide-out {
+			animation: slide-out 0.5s forwards;
+			-webkit-animation: slide-out 0.5s forwards;
+		}
+
+		@keyframes slide-in {
+			100% {
+				transform: translateX(0%);
+			}
+		}
+
+		@-webkit-keyframes slide-in {
+			100% {
+				-webkit-transform: translateX(0%);
+			}
+		}
+
+		@keyframes slide-out {
+			0% {
+				transform: translateX(0%);
+			}
+
+			100% {
+				transform: translateX(-100%);
+			}
+		}
+
+		@-webkit-keyframes slide-out {
+			0% {
+				-webkit-transform: translateX(0%);
+			}
+
+			100% {
+				-webkit-transform: translateX(-100%);
+			}
+		}
+
+		#toggle {
+			width: 500px;
+		}
+	</style>
 </head>
 
 
@@ -18,6 +76,7 @@
 		<div class="company">
 			DIGILIFE MAGAZINE
 		</div>
+
 		<div>
 			<ul>
 				<li><a href="../index.html">HOME</a></li>
@@ -33,7 +92,7 @@
 						<a href="#">News</a>
 						<a href="../pages/sports.html">Sports</a>
 						<a href="#">Technology</a>
-					
+
 					</div>
 				</li>
 				<li><a href="#">ADVERTISE</a></li>
@@ -57,13 +116,64 @@
 	</nav>
 
 	<!--				START EDITING HERE-->
-	<!--				Aside-->
-	<div>
-		<main>
+	<main id="mainGrid">
+		<div id="gridItem1">
+			<h1>About Us</h1>
+		</div>
 
-		</main>
-	</div>
+		<div class="divcontainer"></div>
+		<div id="gridItem2">
+			<h1>WE ARE</h1>
+			<h6>Digilife has been covering global issues dedicated to helping its readers and viewers succeed big in business for the last 30 years
+				through unrivaled access and best-in-class storytelling. Digilife drives the conversation about business. With global perspective, the guiding wisdom of history, and an
+				unflinching eye to the future, we report and reveal stories that matter today and every lives; that will matter even tomorrow. Digilife lights the path for global leaders
+				and gives them the tools to make busineaa better.</h6>
+			<h6>Today, Digilife is one of the worlds leading business media brands. It is owned by My Digilife Company Inc. founded by Franciso Fuentebella Jr., Mark Jesper Pillerva, and Jonalyn Adres
+				It occupies offices in the Philippines, Japan, Singapore, Chicago, Mary Land, California, New York City, Italy, ang Portland.</h6>
+			<h6>Digilife's main purpose is to reflect Industrial Life digitally. It is committed to producing journalism that meets the highest standards of
+				acccuracy, fairness,transparency, and lawfulness. Our digital products aim to inform, delight, illuminate, and help our readers, or viewers.
+				We believe that our products must reflect our commitment to quality and integrity and we recognize that our reputation depends on upholding these journalistic values.</h6>
+		</div>
 
+		<div class="divContainer2">
+			<div id="gridItem3">
+				<div>
+					<h1>FOUNDERS</h1>
+				</div>
+				<div>
+					<span>
+						<figure>
+							<img src="../assets/pngegg.png" width="300px">
+							<figcaption>Mark Jesper Pillerva</figcaption>
+							<figcaption>Porject Engineer</figcaption>
+						</figure>
+					</span>
+					<span>
+						<figure>
+							<img src="../assets/pngegg.png" width="300px">
+							<figcaption>Francisco Fuentebella Jr.</figcaption>
+							<figcaption>Chief Operating Director</figcaption>
+						</figure>
+					</span>
+					<span>
+						<figure>
+							<img src="../assets/pngegg.png" width="300px">
+							<figcaption>Jonalyn Adres</figcaption>
+							<figcaption>Content Manager</figcaption>
+						</figure>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="gridItem4">
+			<iframe width="720" height="480" src="https://www.youtube.com/embed/iQUdbNq6HXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+		<div id="gridItem5">For more information, visit <a href="#">digilife.com/help-center</a></div>
+		<div>
+		</div>
+	</main>
 	<!--				Footer-->
 	<footer class="footer">
 

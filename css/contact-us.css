@@ -5,10 +5,7 @@
 		}
 
 		html {
-			background-repeat: no-repeat;
-			background-size: cover;
-			height: 100%;
-			background-attachment: fixed;
+			background-color: whitesmoke;
 		}
 
 		.company {
@@ -115,112 +112,68 @@
 			transform: scale(1.5);
 		}
 
-		/*		ASIDE FLEX*/
-		.asideflex {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+		/*				FORMS*/
+		.input-field,
+		.category,
+		.textarea,
+		.contact-box,
+		.btn {
+			font-size: 20px;
 		}
 
-		/*		ARTICLE GRIDS	*/
-
-		.articleGrid {
-			display: grid;
-			grid-gap: 0;
-			margin-top: 0;
+		.input-field {
+			width: 500px;
+			height: 40px;
+			margin-top: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border: 1px solid #777;
+			border-radius: 14px;
+			outline: none;
 		}
 
-		.articlegridItem2 {
-			grid-row: 1/3;
-			grid-column: 1/2;
-			width: 450px;
-			height: 93vh;
-			position: fixed;
-			overflow-y: scroll;
-			overflow-x: hidden;
-			margin-top: 70px;
+		.category {
+			width: 520px;
+			height: 40px;
+			margin-top: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border: 1px solid #777;
+			border-radius: 14px;
+			outline: none;
 		}
 
-		.articlegridItem3 {
-			grid-row: 1/3;
-			grid-column: 2/3;
-			margin-top: 70px;
-			background-color: rgba(50, 50, 50, 0.5);
-			background-size: cover;
+		.textarea {
+			width: 500px;
+			height: 150px;
+			margin-top: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border: 1px solid #777;
+			border-radius: 14px;
+			outline: none;
+			resize: vertical;
 		}
 
-		/*		ARTICLE CARDS*/
-		.card {
-			display: flex;
-			margin-top: 25px;
-			border-radius: 10%;
-		}
-
-
-		aside article {
-			background-color: rgba(0, 0, 0, 0.3);
-			width: 400px;
-			height: 420px;
-			padding: 5px;
-		}
-
-		aside article img {
-			width: 300px;
-			padding: 5px;
-		}
-
-		aside article a {
-
-			font-size: 18px;
-			text-align: center;
-			color: antiquewhite;
-			text-decoration: none;
-		}
-
-		aside article a:hover {
-			text-decoration: underline;
-		}
-
-		/*		MAIN CONTENT*/
-		.main {
-			width: 1300px;
-			margin-left: 450px;
-			text-align: center;
-			color: antiquewhite;
-		}
-
-		.main div {
-			font-size: 16px;
-			color: antiquewhite;
-			margin-bottom: 500px;
-		}
-
-		main h1 {
-			margin: 100px auto 0;
+		.contact-box {
 			width: 600px;
-			font-size: 35px;
+			margin: 100px auto;
 		}
 
-		main figure {
-			margin-top: 80px;
+		.btn {
+			background-color: ;
+			margin-top: 20px;
 		}
 
-		main img {
-			width: 900px
+		.btn:hover {
+			box-shadow: 1px 1px #888888;
 		}
 
-		main article p {
+		main div:first-child {
+			margin-top: 100px;
+			margin-bottom: 100px;
 			text-align: center;
-			width: 650px;
-			margin: 50px auto;
-			font-size: 18px;
-			word-spacing: 7px;
-			text-align: justify
-		}
-
-		main blockquote {
-			margin: 0 auto;
-			width: 650px;
+			font-size: 50px;
 		}
 
 		/*				FOOTER*/

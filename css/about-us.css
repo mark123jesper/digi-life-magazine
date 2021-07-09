@@ -4,12 +4,11 @@
 			font-family: 'Merryweather';
 		}
 
-		html {
-			background-repeat: no-repeat;
-			background-size: cover;
-			height: 100%;
-			background-attachment: fixed;
-		}
+body {
+	background-image: url(../assets/ellipse.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 		.company {
 			display: block;
@@ -115,113 +114,115 @@
 			transform: scale(1.5);
 		}
 
-		/*		ASIDE FLEX*/
-		.asideflex {
+		/*				MAIN GRID CONTENT*/
+		#mainGrid {
+			margin: 100px auto 50px;
+		}
+
+		/*ABOUT US HEADER*/
+		#gridItem1 {
 			display: flex;
-			flex-direction: column;
-			align-items: center;
+			justify-content: center;
+			font-size: 50px;
+			margin-bottom: 100px;
 		}
 
-		/*		ARTICLE GRIDS	*/
-
-		.articleGrid {
-			display: grid;
-			grid-gap: 0;
-			margin-top: 0;
+		/*WHO WE ARE ANIMATION*/
+		#gridItem2 {
+			display: block;
+			margin-left: 30vw;
+			font-size: 40px;
+			background-color: rgba(25, 71, 95, 1);
+			width: 550px;
+			height: 90px;
+			overflow: hidden;
+			transition: width 1s, height 1s;
+			position: absolute;
+			color: white;
 		}
 
-		.articlegridItem2 {
-			grid-row: 1/3;
-			grid-column: 1/2;
-			width: 450px;
-			height: 93vh;
-			position: fixed;
-			overflow-y: scroll;
-			overflow-x: hidden;
-			margin-top: 70px;
-		}
-
-		.articlegridItem3 {
-			grid-row: 1/3;
-			grid-column: 2/3;
-			margin-top: 70px;
-			background-color: rgba(50, 50, 50, 0.5);
-			background-size: cover;
-		}
-
-		/*		ARTICLE CARDS*/
-		.card {
-			display: flex;
-			margin-top: 25px;
-			border-radius: 10%;
-		}
-
-
-		aside article {
-			background-color: rgba(0, 0, 0, 0.3);
-			width: 400px;
-			height: 420px;
-			padding: 5px;
-		}
-
-		aside article img {
-			width: 300px;
-			padding: 5px;
-		}
-
-		aside article a {
-
-			font-size: 18px;
-			text-align: center;
-			color: antiquewhite;
-			text-decoration: none;
-		}
-
-		aside article a:hover {
-			text-decoration: underline;
-		}
-
-		/*		MAIN CONTENT*/
-		.main {
+		#gridItem2 h1,
+		#gridItem2 h6 {
 			width: 1300px;
-			margin-left: 450px;
+		}
+
+		#gridItem2 h6 {
+			padding-bottom: 20px
+		}
+
+		#gridItem2:hover {
+			width: 1300px;
+			height: 520px;
+		}
+
+
+
+		/*FOUNDERS*/
+
+		#gridItem3 {
+			margin-top: 190px;
+			display: block;
+			width: 100%;
 			text-align: center;
-			color: antiquewhite;
+			font-size: 40px;
+			height: 90px;
+			overflow: hidden;
+			transition: height 1s;
 		}
 
-		.main div {
-			font-size: 16px;
-			color: antiquewhite;
-			margin-bottom: 500px;
+		.divContainer2,
+		#gridItem3:hover {
+			height: 600px
 		}
 
-		main h1 {
-			margin: 100px auto 0;
-			width: 600px;
-			font-size: 35px;
+		main div span {
+			display: inline-block;
+			margin-top: 20px;
+			margin-left: 50px;
+			margin-right: 50px;
+			z-index: 250;
 		}
 
-		main figure {
-			margin-top: 80px;
+		main div span:hover {
+			transition: 0.2s;
+			transform: scale(1.1);
+			
 		}
-
-		main img {
-			width: 900px
-		}
-
-		main article p {
+		/*================================================================================*/
+		#gridItem4 {
 			text-align: center;
-			width: 650px;
-			margin: 50px auto;
-			font-size: 18px;
-			word-spacing: 7px;
-			text-align: justify
+			display: block;
+			font-size: 40px;
+			margin-top: -20px;
 		}
 
-		main blockquote {
-			margin: 0 auto;
-			width: 650px;
+#gridItem4 a{
+	text-decoration: none;
+	color: black;
+}
+
+#gridItem4 a:hover {
+	text-decoration: underline;
+}
+		
+
+#gridItem5 {
+
+			text-align: center;
+			display: block;
+			font-size: 40px;
+			margin-top: 50px;
+			margin-bottom: -50px;
 		}
+
+#gridItem5 a{
+	text-decoration: none;
+	color: black;
+}
+
+#gridItem5 a:hover {
+	text-decoration: underline;
+}
 
 		/*				FOOTER*/
 		.footer {

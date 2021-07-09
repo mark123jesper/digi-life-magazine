@@ -5,12 +5,7 @@
 }
 
 html {
-	background-color: aqua;
-	background-image: url();
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-	background-attachment: fixed;
+	background-color: whitesmoke;
 }
 
 /*			NAVBAR MENU*/
