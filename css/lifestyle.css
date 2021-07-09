@@ -104,11 +104,13 @@
 
 		.socialmenu ul li {
 			margin: 2px;
-			margin-right: 12px;
+			margin-right: 5px;
 		}
 
 		.socialmenu ul li img {
-			width: 30px
+			width: 30px;
+			background-color: white;
+			border-radius: 14%;
 		}
 
 		.socialmenu ul li:hover {

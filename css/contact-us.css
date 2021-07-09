@@ -13,52 +13,34 @@
 			background-attachment: fixed;
 		}
 
-		/*			NAVBAR MENU*/
-		.company {
-			font-family: fantasy;
-			display: block;
-			position: absolute;
-			top: 10px;
-			left: 10px;
-			font-size: 40px;
-			color: white;
-		}
-
-		.navbarmenu {
-			font-weight: bolder;
+		/*				NAVBAR SOCIAL*/
+		.socialmenu {
 			position: fixed;
-			top: 0px;
-			width: 100%;
-			background-color: rgba(25, 71, 95, 1);
-			color: greenyellow;
-			height: 70px;
-			z-index: 100;
+			top: 16px;
+			right: 5px;
+			z-index: 250;
 		}
 
-		.navbarmenu ul {
+		.socialmenu ul {
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			list-style-type: none;
+			justify-content: flex-end;
+			list-style: none;
 		}
 
-		.navbarmenu ul li {
-			display: block;
-			padding: 23px;
-			font-size: 20px;
+		.socialmenu ul li {
+			margin: 2px;
+			margin-right: 5px;
 		}
 
-		.navbarmenu ul li:focus {
-			background-color: black;
+		.socialmenu ul li img {
+			width: 30px;
+			background-color: white;
+			border-radius: 14%;
 		}
 
-		.navbarmenu ul li:hover {
-			background-color: rgba(25, 40, 50, 1);
-		}
-
-		.navbarmenu ul a {
-			text-decoration: none;
-			color: whitesmoke;
+		.socialmenu ul li:hover {
+			transition: 0.3s;
+			transform: scale(1.5);
 		}
 
 		/*		CATEGORY DROPDOWN*/
