@@ -1,7 +1,6 @@
 		/*			ALL BODY ELEMENTS*/
 		* {
 			margin: 0;
-			font-family: 'Merryweather';
 		}
 
 		body {
@@ -25,7 +24,6 @@
 			top: 0px;
 			width: 100%;
 			background-color: rgba(25, 71, 95, 1);
-			color: greenyellow;
 			height: 70px;
 			z-index: 100;
 		}
@@ -84,36 +82,6 @@
 			display: block;
 		}
 
-		/*				NAVBAR SOCIAL*/
-		.socialmenu {
-			position: fixed;
-			top: 16px;
-			right: 5px;
-			z-index: 250;
-		}
-
-		.socialmenu ul {
-			display: flex;
-			justify-content: flex-end;
-			list-style: none;
-		}
-
-		.socialmenu ul li {
-			margin: 2px;
-			margin-right: 5px;
-		}
-
-		.socialmenu ul li img {
-			width: 30px;
-			background-color: white;
-			border-radius: 14%;
-		}
-
-		.socialmenu ul li:hover {
-			transition: 0.3s;
-			transform: scale(1.5);
-		}
-
 		/*				MAIN GRID CONTENT*/
 		#mainGrid {
 			margin: 100px auto 50px;
@@ -129,7 +97,7 @@
 		/*WHO WE ARE ANIMATION*/
 		#gridItem2 {
 			display: block;
-			margin-left: 30vw;
+			margin-left: 32vw;
 			font-size: 40px;
 			background-color: rgba(25, 71, 95, 1);
 			width: 550px;
@@ -229,8 +197,6 @@
 		.footer {
 			display: block;
 			position: relative;
-			margin-bottom: -300px;
-			height: 300px;
 			background-color: rgba(25, 71, 95, 1);
 			width: 100%;
 			font-size: 16px;
@@ -305,13 +271,73 @@
 			margin-bottom: 8px;
 		}
 
+		.footer2 h3 {
+			margin-bottom: 10px
+		}
+
 		.footer3 {
-			display: flex;
-			justify-content: space-around;
-			margin-top: 5px;
-			margin-bottom: 8px;
+			text-align: center;
+			margin-top: 20px;
 		}
 
 		.footer3 div a {
-			margin: 0 10px;
+			margin: 55px
 		}
+
+		/*				FOOTER SOCIAL*/
+		.socialmenu {
+			position: fixed;
+			bottom: 16px;
+			right: 5px;
+			z-index: 250;
+		}
+
+		.socialmenu ul {
+			display: flex;
+			justify-content: flex-end;
+			list-style: none;
+		}
+
+		.socialmenu ul li {
+			margin: 2px;
+			margin-right: 5px;
+		}
+
+		.socialmenu ul li img {
+			width: 30px;
+			background-color: white;
+			border-radius: 14%;
+		}
+
+		.socialmenu ul li:hover {
+			transition: 0.3s;
+			transform: scale(1.5);
+		}
+
+@media only screen and (max-width: 1680px) {
+	.company {
+			display: block;
+			position: absolute;
+			top: 10px;
+			left: 5px;
+			font-size: 25px;
+			color: white;
+		}
+
+		.navbarmenu {
+			height: 52px;
+		}
+
+		.navbarmenu ul li {
+			padding: 15px;
+			font-size: 18px;
+		}
+
+		
+		/*		CATEGORY DROPDOWN*/
+
+		.dropdown-content a {
+			padding: 8px 8px;
+		}
+
+}
