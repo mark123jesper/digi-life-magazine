@@ -4,11 +4,11 @@
 			font-family: 'Merryweather';
 		}
 
-body {
-	background-image: url(../assets/ellipse.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+		body {
+			background-image: url(../assets/abstract-blue-triangle-mosaic-grid-background_1017-20896.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
 
 		.company {
 			display: block;
@@ -121,9 +121,8 @@ body {
 
 		/*ABOUT US HEADER*/
 		#gridItem1 {
-			display: flex;
-			justify-content: center;
-			font-size: 50px;
+			text-align: center;
+			font-size: 30px;
 			margin-bottom: 100px;
 		}
 
@@ -143,6 +142,7 @@ body {
 
 		#gridItem2 h1,
 		#gridItem2 h6 {
+			padding: 8px;
 			width: 1300px;
 		}
 
@@ -152,7 +152,7 @@ body {
 
 		#gridItem2:hover {
 			width: 1300px;
-			height: 520px;
+			height: 550px;
 		}
 
 
@@ -186,8 +186,9 @@ body {
 		main div span:hover {
 			transition: 0.2s;
 			transform: scale(1.1);
-			
+
 		}
+
 		/*================================================================================*/
 		#gridItem4 {
 			text-align: center;
@@ -196,33 +197,33 @@ body {
 			margin-top: -20px;
 		}
 
-#gridItem4 a{
-	text-decoration: none;
-	color: black;
-}
+		#gridItem4 a {
+			text-decoration: none;
+			color: black;
+		}
 
-#gridItem4 a:hover {
-	text-decoration: underline;
-}
-		
+		#gridItem4 a:hover {
+			text-decoration: underline;
+		}
 
-#gridItem5 {
+		/*================================================================================*/
+		#gridItem5 {
 
 			text-align: center;
 			display: block;
-			font-size: 40px;
+			font-size: 30px;
 			margin-top: 50px;
 			margin-bottom: -50px;
 		}
 
-#gridItem5 a{
-	text-decoration: none;
-	color: black;
-}
+		#gridItem5 a {
+			text-decoration: none;
+			color: black;
+		}
 
-#gridItem5 a:hover {
-	text-decoration: underline;
-}
+		#gridItem5 a:hover {
+			text-decoration: underline;
+		}
 
 		/*				FOOTER*/
 		.footer {
