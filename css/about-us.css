@@ -9,6 +9,7 @@
 			background-size: cover;
 		}
 
+		/*			NAVBAR MENU*/
 		.company {
 			display: block;
 			position: absolute;
@@ -339,5 +340,7 @@
 		.dropdown-content a {
 			padding: 8px 8px;
 		}
+
+
 
 }
